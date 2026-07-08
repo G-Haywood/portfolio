@@ -35,7 +35,28 @@ body {
 }
 
 .hero {
-    max-width: 900px;
-    margin: 4rem auto;
+    display: flex;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
+    padding: 2rem 2rem;
+}
+
+.hero-sidebar {
+  width: 580px;
+}
+
+.portrait {
+  width: 95%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-content {
+  text-shadow: 0 0 20px #2744ff;
 }
